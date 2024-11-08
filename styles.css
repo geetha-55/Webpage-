@@ -1,0 +1,227 @@
+/* Base Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  /* Dark Mode */
+  .dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  /* Dark Mode Styling for Sections */
+  .dark-mode .network-reach {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dark-mode .network-description {
+    color: #ddd; /* Ensure text is light enough to be visible */
+  }
+  
+  .dark-mode .map-visual {
+    background-color: #444; /* Darker background for the map area */
+  }
+  
+  .dark-mode .reach-features .feature p {
+    color: #ddd; /* Lighter text for the features */
+  }
+  
+  .dark-mode .partner-logos {
+    background-color: #333;
+  }
+  
+  .dark-mode .logo-grid img {
+    filter: brightness(0.7); /* Make logos slightly lighter */
+  }
+  
+  .dark-mode .scroll-to-top {
+    background-color: #6e54a3;
+  }
+  
+  /* Dark Mode Button Styling */
+  .dark-mode-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #4c2a85;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dark-mode-button:hover {
+    background-color: #6e54a3;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(135deg, #6a1b9a, #8e24aa);
+    color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .cta-button {
+    background-color: #ffffff;
+    color: #8e24aa;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #8e24aa;
+    color: #ffffff;
+  }
+  
+  /* Accordion Section */
+  .accordion {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .accordion-button {
+    background-color: #4c2a85;
+    color: white;
+    padding: 15px;
+    border: none;
+    text-align: left;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  .accordion-button:hover {
+    background-color: #6e54a3;
+  }
+  
+  .accordion-content {
+    display: none;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-left: 3px solid #8e24aa;
+  }
+  
+  .accordion-content.dark-mode {
+    background-color: #2a2a2a;
+    color: #dcdcdc;
+  }
+  
+  /* Franchise Benefits Table */
+  .benefits-table table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  .benefits-table th, .benefits-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .benefits-table th {
+    background-color: #8e24aa;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .benefits-table td {
+    text-align: center;
+  }
+  
+  
+  /* From Anywhere to Everywhere Section */
+  .network-reach {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+    margin-bottom: 0; /* Removed extra bottom margin */
+  }
+  
+  .network-description {
+    max-width: 800px;
+    margin: 0 auto 20px; /* Reduced bottom margin */
+    color: #555;
+    font-size: 1.1rem;
+  }
+  
+  /* Reach Features */
+  .reach-features {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .feature {
+    text-align: center;
+  }
+  
+  .feature p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Partner Logos */
+  .partner-logos {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    margin-top: 0; /* Removed unnecessary margin top */
+  }
+  
+  .logo-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .logo-grid img {
+    width: 100px;
+    transition: transform 0.3s;
+  }
+  
+  .logo-grid img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Scroll-to-Top Button */
+  .scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #8e24aa;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    transition: background-color 0.3s;
+  }
+  
+  .scroll-to-top:hover {
+    background-color: #6e54a3;
+  }
+  
